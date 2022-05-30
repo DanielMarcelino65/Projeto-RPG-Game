@@ -1164,3 +1164,5 @@ void confronto3()
 	}
 	}while(endBattle != 3);
 }
+
+//Daniel passou por aqui
