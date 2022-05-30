@@ -1850,8 +1850,9 @@ void confronto1()
 	printf("\n\n\nOs atributos do adversario sao:\n -> Defesa = %d\n -> Dano = %d\n -> Agilidade = %d\n -> P.V = %d\n", vilao1[v].defesa, vilao1[v].dano, vilao1[v].agilidade, vilao1[v].pv_adv);
 	system("pause");
 	do{
-	if(personagem.agilidade > vilao1[v].agilidade)
+	if(personagem.agilidade > vilao1[v].agilidade || personagem.agilidade == vilao1[v].agilidade)
 	{
+		case 1:
 		printf("\n\nO turno da vez eh do %s", personagem.nome);
 		printf("\nVoce tem 3 opcoes. Voce pode:\n\n[1] -> Atacar\n[2] -> Defender\n[3] -> Usar Pocao \n\n  ->");
 		scanf("%d", &j);
