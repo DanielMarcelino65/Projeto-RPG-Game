@@ -1852,7 +1852,6 @@ void confronto1()
 	do{
 	if(personagem.agilidade > vilao1[v].agilidade || personagem.agilidade == vilao1[v].agilidade)
 	{
-		case 1:
 		printf("\n\nO turno da vez eh do %s", personagem.nome);
 		printf("\nVoce tem 3 opcoes. Voce pode:\n\n[1] -> Atacar\n[2] -> Defender\n[3] -> Usar Pocao \n\n  ->");
 		scanf("%d", &j);
